@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <style>
+      a {
+        color: blue;
+        text-decoration: none;
+      }
+      a:visited {
+        color: blueviolet;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      a:active {
+        color: aqua;
+      }
+      a::after,
+      a::before {
+        content: " 🔗";
+        text-decoration: none;
+        font-weight: lighter;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Personalizando Links</h1>
+    <ul>
+      <li>
+        <a href="https://github.com/agemilsonn" target="_blank" rel="external"
+          >Github</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.facebook.com/agemilson/"
+          target="_blank"
+          rel="external"
+          >Facebook</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.instagram.com/agemilson_/"
+          target="_blank"
+          rel="external"
+          >Instagram</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>
